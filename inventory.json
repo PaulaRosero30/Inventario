@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": "1b0625e4-8899-40e3-b21f-f7a449d108a0",
+      "name": "Laptop Dell XPS",
+      "sku": "DELL-XPS-001",
+      "category": "Electrónica",
+      "price": 1200.0,
+      "stock": 10,
+      "min_stock": 5,
+      "supplier": "Tech Corp",
+      "created_at": "2026-04-28T08:16:10.383504"
+    },
+    {
+      "id": "5474799a-fe3d-42d0-bb78-4c1de3c2d808",
+      "name": "Teclado Mecánico",
+      "sku": "KB-MECH-002",
+      "category": "Electrónica",
+      "price": 85.0,
+      "stock": 7,
+      "min_stock": 10,
+      "supplier": "Periféricos S.A.",
+      "created_at": "2026-04-28T08:16:10.383526"
+    },
+    {
+      "id": "83ac3a9b-0b8b-4c2f-bee2-df22df874be9",
+      "name": "Mouse Inalámbrico",
+      "sku": "MOUSE-WL-003",
+      "category": "Electrónica",
+      "price": 35.0,
+      "stock": 42,
+      "min_stock": 15,
+      "supplier": "Periféricos S.A.",
+      "created_at": "2026-04-28T08:16:10.383530"
+    },
+    {
+      "id": "dd52fa46-219a-4f3f-9b8e-3878bf8789a2",
+      "name": "Silla Ergonómica",
+      "sku": "CHAIR-ERG-004",
+      "category": "Hogar",
+      "price": 320.0,
+      "stock": 8,
+      "min_stock": 3,
+      "supplier": "MobiliarioPlus",
+      "created_at": "2026-04-28T08:16:10.383533"
+    },
+    {
+      "id": "de4b71b5-ada7-49a3-ba27-84ca19c8ebe0",
+      "name": "Camisa Oxford",
+      "sku": "SHIRT-OXF-005",
+      "category": "Ropa",
+      "price": 45.0,
+      "stock": 23,
+      "min_stock": 20,
+      "supplier": "Textiles MX",
+      "created_at": "2026-04-28T08:16:10.383536"
+    }
+  ],
+  "categories": [
+    "Electrónica",
+    "Ropa",
+    "Alimentos",
+    "Hogar",
+    "Herramientas",
+    "Otro"
+  ],
+  "movements": [
+    {
+      "id": "8ccdf87a-05af-4118-ba2e-5585e6ebd536",
+      "product_id": "1b0625e4-8899-40e3-b21f-f7a449d108a0",
+      "product_name": "Laptop Dell XPS",
+      "type": "salida",
+      "quantity": 5,
+      "date": "2026-04-29T10:05:43.585587",
+      "note": "vendido"
+    },
+    {
+      "id": "2c063db9-6cb0-4621-8437-49c2f8efc2e8",
+      "product_id": "de4b71b5-ada7-49a3-ba27-84ca19c8ebe0",
+      "product_name": "Camisa Oxford",
+      "type": "entrada",
+      "quantity": 11,
+      "date": "2026-04-29T13:30:30.384418",
+      "note": "Ajuste de inventario"
+    },
+    {
+      "id": "13d095e7-b315-4cf6-8b43-4a21da3389c7",
+      "product_id": "de4b71b5-ada7-49a3-ba27-84ca19c8ebe0",
+      "product_name": "Camisa Oxford",
+      "type": "entrada",
+      "quantity": 12,
+      "date": "2026-04-29T13:30:54.724952",
+      "note": "llegaron"
+    },
+    {
+      "id": "ca50fef2-3c5e-401e-89f3-7ea7c85ea52a",
+      "product_id": "5474799a-fe3d-42d0-bb78-4c1de3c2d808",
+      "product_name": "Teclado Mecánico",
+      "type": "entrada",
+      "quantity": 4,
+      "date": "2026-04-29T13:32:30.609094",
+      "note": "llegaron"
+    }
+  ]
+}
